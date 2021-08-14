@@ -1,4 +1,4 @@
-name: carrot_market
+name: flutter_face_recognition
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -24,6 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_launcher_name: ^0.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -35,6 +39,7 @@ dependencies:
   path: ^1.8.0
   google_ml_kit: ^0.7.0
   image_picker: ^0.8.2
+  table_calendar: ^3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -81,3 +86,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_name: 
+  name: "flutter_face_recognition"
