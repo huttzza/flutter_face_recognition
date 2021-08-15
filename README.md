@@ -1,4 +1,4 @@
-# carrot_market
+# flutter_face_recognition
 
 A new Flutter project.
 
